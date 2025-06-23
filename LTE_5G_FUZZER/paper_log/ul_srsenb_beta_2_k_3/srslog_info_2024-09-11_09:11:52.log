@@ -1,0 +1,15 @@
+[2024-09-11 09:11:53.013] [logger] [info] Starting RRC thread
+[2024-09-11 09:11:53.013] [logger] [info] Inited communication
+[2024-09-11 09:11:53.016] [logger] [info] ================ START OF A NEW FUZZING ITERATION 0 ================
+[2024-09-11 09:11:58.050] [logger] [info] GOT MESSAGE FROM UE: 
+[2024-09-11 09:11:58.050] [logger] [warning] UNKNOWN HANG HAPPENED!
+[2024-09-11 09:11:58.081] [logger] [info] Completed fuzzing iteration: 0 (0 for current config file)
+[2024-09-11 09:11:58.102] [logger] [info] ENB_COVERAGE_TRACKER: NEW COVERAGE FOUND!
+[2024-09-11 09:12:03.152] [logger] [warning] Failed to get the edge amount!
+[2024-09-11 09:12:03.162] [logger] [warning] srsEPC: killall failed
+[2024-09-11 09:12:04.539] [logger] [error] Failed to start srsEPC
+[2024-09-11 09:12:04.539] [logger] [error] Failed to restart a core network
+[2024-09-11 09:12:04.540] [logger] [error] Failed to restart the protocol stack!
+[2024-09-11 09:12:04.550] [logger] [warning] srsEPC: killall failed
+[2024-09-11 09:12:05.587] [logger] [warning] srsENB_ZMQ is not alive. Nothing to stop.
+[2024-09-11 09:12:05.601] [logger] [warning] srsUE_ZMQ is not alive. Nothing to stop.
