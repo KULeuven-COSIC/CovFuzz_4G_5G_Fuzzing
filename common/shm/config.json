@@ -1,0 +1,10 @@
+{
+    "FUZZ_MAC_DL": false,
+    "FUZZ_RRC_DL": false,
+
+    "FUZZ_MAC_UL": false,
+    "FUZZ_RRC_UL": true,
+
+    "FUZZ_MIB": false,
+    "FUZZ_SIB": false
+}

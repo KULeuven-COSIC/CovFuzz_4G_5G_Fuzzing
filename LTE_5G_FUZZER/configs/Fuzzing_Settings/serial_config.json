@@ -1,0 +1,4 @@
+{
+    "modem_ports": ["/dev/ttyUSB3"],
+    "baudrate": "9600"
+}

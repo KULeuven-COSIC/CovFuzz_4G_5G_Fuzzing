@@ -1,0 +1,10 @@
+{
+    "attach_attempts_per_iteration": 2005,
+    "fuzzing_strategies": ["NONE"],
+    "use_coverage_logging": true,
+    "coverage_log_path": "coverage_log/ul_no_fuzzing",
+    "use_coverage_feedback": false,
+    "restart_after_consecutive_failed_attaches": 5,
+    "restart_after_consecutive_hangs": 3,
+    "init_prob_mult_factor": 3.0
+}

@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "layer": 0,
+            "layer_name": "RRC",
+            "packet_summary": "RRCConnectionSetup",
+            "patch_type": "InjectionPatch",
+            "new_packet": {
+                "direction": 1,
+                "data": [96,19,152,11,253,210,4,250,24,62,213,102,169,102,67,6,152,0,5,101,1,18,30,0,5,160]
+            }
+        }
+    ]
+}

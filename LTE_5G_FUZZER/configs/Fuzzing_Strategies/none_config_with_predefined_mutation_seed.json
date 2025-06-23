@@ -1,0 +1,12 @@
+{
+    "attach_attempts_per_iteration": 5,
+    "fuzzing_strategies": ["NONE"],
+    "use_coverage_logging": true,
+    "coverage_log_path": "coverage_log",
+    "use_coverage_feedback": false,
+    "restart_after_consecutive_failed_attaches": 5,
+    "restart_after_consecutive_hangs": 2,
+    "init_prob_mult_factor": 3.0,
+    "use_existing_seeds": true,
+    "seed_paths": ["replay_seeds/example_dl_seed.json"]
+}

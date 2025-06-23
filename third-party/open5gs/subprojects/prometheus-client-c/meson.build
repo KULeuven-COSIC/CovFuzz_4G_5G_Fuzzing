@@ -1,0 +1,1 @@
+project('prometheus-client-c')

@@ -1,0 +1,12 @@
+{
+    "attach_attempts_per_iteration": 2000,
+    "coverage_log_path": "coverage_log_with_cov_feedback_beta_5.0",
+    "fuzzing_strategies": ["RANDOM_FUZZING"],
+    "use_coverage_feedback": true,
+    "use_coverage_logging": true,
+    "beta": 5.0,
+    "init_prob_mult_factor": 3.0,
+    "mutation_prob": 100,
+    "restart_after_consecutive_hangs": 2,
+    "restart_after_consecutive_successful_attaches": 10
+}

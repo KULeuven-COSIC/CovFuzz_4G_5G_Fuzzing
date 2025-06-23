@@ -1,0 +1,12 @@
+{
+    "asan_log_path": "asan/",
+    "network_name": ["00101"],
+    "protocol_stack_name": "SRSRAN_4G_SRSUE",
+    "log_DL_packets": true,
+    "log_UL_packets": true,
+    "serial_config_path": "configs/Fuzzing_Settings/serial_config.json",
+    "timers_config_path": "configs/Fuzzing_Settings/timers_config.json",
+    "srsran_config_path": "configs/Fuzzing_Settings/srsran_config.json",
+    "target_name": "NONE",
+    "ue_name": "DUMMY_UE"
+}

@@ -1,0 +1,10 @@
+{
+    "path_to_srsran_4G": "/home/anonymous/Projects/CovFuzz_EuroSP_2025/third-party/srsRAN_4G/build",
+    "path_to_srsran_project": "/home/anonymous/Projects/CovFuzz_EuroSP_2025/third-party/srsRAN_Project",
+    "path_to_srsran_project_config": "/home/anonymous/Projects/CovFuzz_EuroSP_2025/third-party/srsRAN_Project/configs/gnb_b210_20MHz_band_78_FUZZ.yml",
+    "path_to_open5gs": "/home/anonymous/Projects/CovFuzz_EuroSP_2025/third-party/open5gs",
+    "close_base_station_after_fuzzing": true,
+    "close_core_network_after_fuzzing": true,
+    "close_ue_after_fuzzing": true,
+    "use_monitor": true
+}
