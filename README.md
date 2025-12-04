@@ -1,6 +1,7 @@
 # CovFuzz_EuroSP_2025
 
-This repository provides the implementation and experimental results associated with the paper "CovFuzz: Coverage-based fuzzer for 4G&5G protocols", presented at EuroS&P 2025.
+This repository provides the implementation of CovFuzz fuzzing framework and experimental results associated with the paper "CovFuzz: Coverage-based fuzzer for 4G&5G protocols", presented at EuroS&P 2025.
+It provides everything needed to reproduce the results from the paper and to run fuzzing campaigns against both simulation-based and real (physical) 4G and 5G targets.
 
 To cite this work, please use the following reference:
 ```bibtex
