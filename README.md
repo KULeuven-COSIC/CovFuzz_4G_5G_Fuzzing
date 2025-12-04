@@ -3,6 +3,7 @@
 This repository provides the implementation and experimental results associated with the paper "CovFuzz: Coverage-based fuzzer for 4G&5G protocols", presented at EuroS&P 2025.
 
 To cite this work, please use the following reference:
+```bibtex
 @inproceedings{sirovs2025covfuzz,
   title={Covfuzz: Coverage-based fuzzer for 4g\&5g protocols},
   author={Siro{\v{s}}, Ilja and Singel{\'e}e, Dave and Preneel, Bart},
@@ -11,6 +12,7 @@ To cite this work, please use the following reference:
   year={2025},
   organization={IEEE}
 }
+```
 
 ## Installation
 ### Source-based installation:
