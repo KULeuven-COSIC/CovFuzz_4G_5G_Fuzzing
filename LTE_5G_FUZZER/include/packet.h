@@ -85,8 +85,6 @@ public:
 
 public:
     friend struct PacketHash;
-    friend void to_json(nlohmann::json& j, const Packet& packet);
-    friend void from_json(const nlohmann::json& j, Packet& packet);
 
     void init_fields();
     std::ostream& dump(std::ostream& os) const;
