@@ -17,7 +17,12 @@ To cite this work, please use the following reference:
 
 ## Installation
 ### Source-based installation:
-Clone this repository and run the following commands to build and install the full framework:
+Clone the repository:
+```bash
+git clone git@github.com:KULeuven-COSIC/CovFuzz_4G_5G_Fuzzing.git CovFuzz_EuroSP_2025
+```
+
+Run the following commands to build and install full framework:
 ```bash
 cd CovFuzz_EuroSP_2025
 sudo ./build_script.sh -b -i -t all
@@ -29,7 +34,12 @@ Before starting the fuzzer, set the correct paths in the configs/Fuzzing_Setting
 The fuzzer was tested on Ubuntu 22.04.
 
 ### Docker-based installation
-Install docker, clone this repository and run the following commands:
+Clone the repository:
+```bash
+git clone git@github.com:KULeuven-COSIC/CovFuzz_4G_5G_Fuzzing.git CovFuzz_EuroSP_2025
+```
+
+Build and run the docker container:
 ```bash
 cd CovFuzz_EuroSP_2025
 sudo docker build . -t [NAME]
