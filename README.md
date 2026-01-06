@@ -1,5 +1,20 @@
 # CovFuzz_EuroSP_2025
 
+This repository provides the implementation of CovFuzz fuzzing framework and experimental results associated with the paper "CovFuzz: Coverage-based fuzzer for 4G&5G protocols", presented at EuroS&P 2025.
+It provides everything needed to reproduce the results from the paper and to run fuzzing campaigns against both simulation-based and real (physical) 4G and 5G targets.
+
+To cite this work, please use the following reference:
+```bibtex
+@inproceedings{sirovs2025covfuzz,
+  title={Covfuzz: Coverage-based fuzzer for 4g\&5g protocols},
+  author={Siro{\v{s}}, Ilja and Singel{\'e}e, Dave and Preneel, Bart},
+  booktitle={2025 IEEE 10th European Symposium on Security and Privacy (EuroS\&P)},
+  pages={737--754},
+  year={2025},
+  organization={IEEE}
+}
+```
+
 ## Installation
 ### Source-based installation:
 Clone this repository and run the following commands to build and install the full framework:
