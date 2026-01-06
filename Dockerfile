@@ -55,7 +55,7 @@ RUN git clone https://github.com/crayzeewulf/libserial.git && cd libserial && ./
 RUN git clone https://github.com/zeromq/libzmq.git && cd libzmq && ./autogen.sh && ./configure && make && make install && ldconfig
 
 # Install cppzmq
-RUN git clone https://github.com/zeromq/cppzmq.git && cd cppzmq && mkdir -p build && cd build && cmake .. && make && make install
+RUN git clone https://github.com/zeromq/cppzmq.git && cd cppzmq && mkdir -p build && cd build && cmake -DCPPZMQ_BUILD_TESTS=OFF .. && make && make install
 
 
 COPY third-party/ ./third-party/
