@@ -67,8 +67,6 @@ bool Mutation::prepare(const Packet& packet) {
                 }
         }
 
-        if (is_completed) return true;
-
         // Extract and save an old value
         uint8_t field_len = get_field_size_bits(&field.parsed_f);
         if (field_len == 0 || field_len >= 64) {
@@ -85,6 +83,9 @@ bool Mutation::prepare(const Packet& packet) {
                 failed = true;
                 return false;
         }
+
+        if (is_completed) return true;
+
         // Apply mutator to the old value and get a new one
         uint64_t max_value = (1UL << field_len); // Does NOT work without UL appendix, as results in a overflow of 32-bit number
         if (!apply_mutator(mutator_, value, max_value, &new_value)) return false;
