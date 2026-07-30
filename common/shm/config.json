@@ -1,9 +1,9 @@
 {
     "FUZZ_MAC_DL": false,
-    "FUZZ_RRC_DL": false,
+    "FUZZ_RRC_DL": true,
 
     "FUZZ_MAC_UL": false,
-    "FUZZ_RRC_UL": true,
+    "FUZZ_RRC_UL": false,
 
     "FUZZ_MIB": false,
     "FUZZ_SIB": false
