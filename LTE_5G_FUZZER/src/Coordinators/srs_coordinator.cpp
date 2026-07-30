@@ -22,9 +22,9 @@ extern std::string ue_log_file_name_g;
 extern Statistics statistics_g;
 
 SRS_Coordinator::SRS_Coordinator() {
-    //if (fuzz_strategy_config_g.use_coverage_logging) coverage_trackers.emplace_back(std::make_unique<Coverage_Tracker>("UE_COVERAGE_TRACKER" , "tcp://127.0.0.1:5566"));
-    if (fuzz_strategy_config_g.use_coverage_logging) coverage_trackers.emplace_back(std::make_unique<Coverage_Tracker>("ENB_COVERAGE_TRACKER", "tcp://127.0.0.1:5567"));
     if (fuzz_strategy_config_g.use_coverage_logging) coverage_trackers.emplace_back(std::make_unique<Coverage_Tracker>("UE_COVERAGE_TRACKER" , "tcp://127.0.0.1:5566"));
+    if (fuzz_strategy_config_g.use_coverage_logging) coverage_trackers.emplace_back(std::make_unique<Coverage_Tracker>("ENB_COVERAGE_TRACKER", "tcp://127.0.0.1:5567"));
+    //if (fuzz_strategy_config_g.use_coverage_logging) coverage_trackers.emplace_back(std::make_unique<Coverage_Tracker>("UE_COVERAGE_TRACKER" , "tcp://127.0.0.1:5566"));
     if (fuzz_strategy_config_g.use_coverage_logging) coverage_trackers.emplace_back(std::make_unique<Coverage_Tracker>("EPC_COVERAGE_TRACKER", "tcp://127.0.0.1:5568"));
 }
 
