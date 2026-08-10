@@ -1,6 +1,6 @@
 {
     "asan_log_path": "asan/",
-    "network_name": ["00101"],
+    "network_names": ["00101"],
     "protocol_stack_name": "SRSRAN_4G_SRSUE",
     "log_DL_packets": true,
     "log_UL_packets": true,

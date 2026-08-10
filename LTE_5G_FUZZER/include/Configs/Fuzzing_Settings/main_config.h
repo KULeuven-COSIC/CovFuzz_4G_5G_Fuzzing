@@ -31,7 +31,7 @@ public:
 
 std::ostream& operator<< (std::ostream& os, const Main_Config& path_config);
 
-NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(Main_Config, protocol_stack_name, ue_name, target_name, asan_log_path, use_monitor,
+NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE_WITH_DEFAULT(Main_Config, protocol_stack_name, ue_name, target_name, asan_log_path, use_monitor, network_names,
                                                                 log_DL_packets, log_UL_packets, srsran_config_path, serial_config_path, 
                                                                 timers_config_path, verbose)
 
